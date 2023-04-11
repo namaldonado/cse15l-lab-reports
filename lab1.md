@@ -1,26 +1,3 @@
-*Italica*
-**Bold**
-# Heading 1
-## Heading 2
-[Link](http://a.com)
-![Image](image link)
-> Blockquote
-* list
-* list
-* list
-1. one
-2. two
-3. three
---- 
-'Incline code' with backticks 
-
-
-
-
-
-
-blog about remote access, will be a tutorial for yourself about how to log into course-specific account on ieng6
-
 # Lab Report 1
 > I am going to attempt to create a tutorial for incoming 15L studens to log into course specific accounts like `ieng6`
 
@@ -40,9 +17,22 @@ Once you finish installing VScode, open the application. You should see a screen
 
 ![Image](Screenshot 2023-03-14 194838.png) 
 
+## Remotely Connecting
+---
+Open a new terminal on VS Code by using the built-in terminal/command prompt or by simply uing ctrl + shift + ` 
 
 
+Then type the follwing int your command prompt:
 
-
-
-
+`ssh <username>                                                                                     `
+  
+  Be sure to replace <username> with **your** username. 
+  
+  once you have types that, press enter.
+  
+  The terminal should prompt you to enter your password. 
+  *This is where you enter your account's password.*
+  
+  
+  
+  
