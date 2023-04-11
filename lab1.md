@@ -17,9 +17,6 @@ Once you finish installing VScode, open the application. You should see a screen
 
 ![Image](Screenshot 2023-03-14 194838.png) 
 
-![Image][1]
-⋮
-[1]: http://url/b.jpg
 
 ## Remotely Connecting
 ---
@@ -37,8 +34,7 @@ once you have types that, press enter.
 
 You should see something like the following:
 
-
-![Image](Screenshot 2023-04-10 212234.png)
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-04-10%20212234.png" width="900" />
 
 
 Then types yes, and click enter again, then retype what you frst wrote in the command prompt this should prompt you to enter your password. Once ou have entered your password, you should see a screen like this.
