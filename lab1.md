@@ -1,7 +1,7 @@
-# Lab Report 1
+# Lab Report 1 
 > I am going to attempt to create a tutorial for incoming 15L studens to log into course specific accounts like `ieng6`
 
-The following are the steps I will be coverig:
+I will be covering:
 1. Installing VScode
 2. Remotely Connecting
 3. Trying some Commands
@@ -16,6 +16,10 @@ Install Visual Sutio Code with the provided link below, and follow the steps to 
 Once you finish installing VScode, open the application. You should see a screen like this.
 
 ![Image](Screenshot 2023-03-14 194838.png) 
+
+![Image][1]
+⋮
+[1]: http://url/b.jpg
 
 ## Remotely Connecting
 ---
