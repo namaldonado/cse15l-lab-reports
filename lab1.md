@@ -55,4 +55,8 @@ Let's try out some commands, here are a few examples we can try:
 * cat <directory\>
 
 Here is an example of how to type them if you are stuck:
+![Image](Screenshot 2023-04-10 214124.png)
 
+**To log out of the remote server in your terminal, you can use: **
+* Ctrl-D
+* Run the command `exit
