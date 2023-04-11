@@ -36,6 +36,14 @@ Then type the follwing int your command prompt:
   ![Image](Screenshot 2023-04-10 212234.png)
   
   
+  Then types yes, and click enter again, then retype what you frst wrote in the command prompt
+  
+  this should prompt you to enter your password. Once ou have entered your password, you should see a screen like this.
+  
+  
+  
+  
+  
   The terminal should prompt you to enter your password. 
   *This is where you enter your account's password.*
   
