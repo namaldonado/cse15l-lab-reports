@@ -42,5 +42,17 @@ Then types yes, and click enter again, then retype what you frst wrote in the co
 
 ![Image](Screenshot 2023-04-10 213256.png)
 
+If you see a page like this, congrats!  You're in. 
 
-  
+## Trying some Commands
+Let's try out some commands, here are a few examples we can try:
+
+* cd ~
+* cd
+* las -lat
+* ls <directory\>
+* cp <directory\>
+* cat <directory\>
+
+Here is an example of how to type them if you are stuck:
+
