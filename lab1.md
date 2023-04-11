@@ -7,7 +7,7 @@ I will be covering:
 3. Trying some Commands
 
 ## Installing VScode
---- 
+
 
 Install Visual Sutio Code with the provided link below, and follow the steps to install. 
 
@@ -16,10 +16,12 @@ Install Visual Sutio Code with the provided link below, and follow the steps to 
 Once you finish installing VScode, open the application. You should see a screen like this.
 
 ![Image](Screenshot 2023-03-14 194838.png) 
+*There was a file overload, so I was not able to download my VScode opening image*
 
 
 ## Remotely Connecting
----
+
+
 Open a new terminal on VS Code by using the built-in terminal/command prompt or by simply uing ctrl + shift + ` 
 
 
@@ -37,7 +39,12 @@ You should see something like the following:
 <img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-04-10%20212234.png" width="900" />
 
 
-Then types yes, and click enter again, then retype what you frst wrote in the command prompt this should prompt you to enter your password. Once ou have entered your password, you should see a screen like this.
+You will see the yes/no option question in the terminal.
+Type **yes**, and click enter.
+Then retype what you frst wrote in the command prompt; this should prompt you to enter your password. 
+
+
+Once ou have entered your password, you should see a screen like this.
 
 
 <img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-04-10%20213256.png" width="900"/>
