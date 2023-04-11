@@ -38,6 +38,8 @@ Install Visual Sutio Code with the provided link below, and follow the steps to 
 
 Once you finish installing VScode, open the application. You should see a screen like this.
 
+![Image]()
+
 
 
 
