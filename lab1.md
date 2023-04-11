@@ -40,7 +40,7 @@ You should see something like the following:
 Then types yes, and click enter again, then retype what you frst wrote in the command prompt this should prompt you to enter your password. Once ou have entered your password, you should see a screen like this.
 
 
-![Image](Screenshot 2023-04-10 213256.png)
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-04-10%20213256.png" width="900"/>
 
 If you see a page like this, congrats!  You're in. 
 
@@ -55,7 +55,7 @@ Let's try out some commands, here are a few examples we can try:
 * cat <directory\>
 
 Here is an example of how to type them if you are stuck:
-![Image](Screenshot 2023-04-10 214124.png)
+<img src = "https://github.com/namaldonado/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20214124.png" width="900" />
 
 **To log out of the remote server in your terminal, you can use: **
 * Ctrl-D
