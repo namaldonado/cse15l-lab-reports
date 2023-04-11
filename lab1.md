@@ -24,15 +24,19 @@ Open a new terminal on VS Code by using the built-in terminal/command prompt or 
 
 Then type the follwing int your command prompt:
 
-`ssh <username>                                                                                     `
+`ssh <username + @ieng6-202.ucsd.edu> `
   
-  Be sure to replace <username> with **your** username. 
+  Be sure to replace <username> with **your** username.
   
   once you have types that, press enter.
   
+  You should see something like the following:
+  
+  
+  ![Image](Screenshot 2023-04-10 212234.png)
+  
+  
   The terminal should prompt you to enter your password. 
   *This is where you enter your account's password.*
-  
-  
   
   
