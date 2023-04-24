@@ -57,12 +57,12 @@ If you see a page like this, congrats!  You're in.
 ## Trying some Commands
 Let's try out some commands, here are a few examples we can try:
 ```
-* cd ~
-* cd
-* las -lat
-* ls <directory\>
-* cp <directory\>
-* cat <directory\>
+- cd ~
+- cd
+- las -lat
+- ls <directory\>
+- cp <directory\>
+- cat <directory\>
 ```
   
 Here is an example of how to type them if you are stuck:
