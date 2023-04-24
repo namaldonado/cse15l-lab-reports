@@ -15,7 +15,7 @@ Install Visual Sutio Code with the provided link below, and follow the steps to 
 
 Once you finish installing VScode, open the application. You should see a screen like this.
 
-![Image](Screenshot 2023-03-14 194838.png) 
+<img src= "file:///C:/Users/Nathalie/Pictures/Screenshots/Screenshot%202023-04-06%20182625.png"/>
 *There was a file overload, so I was not able to download my VScode opening image*
 
 
