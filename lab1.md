@@ -31,7 +31,7 @@ ssh <username + @ieng6-202.ucsd.edu>
 ```
 
   
-Be sure to replace <username> with __your__ username.
+Be sure to replace <username> with **your** username.
 
 once you have types that, press enter.
 
@@ -45,7 +45,7 @@ Type **yes**, and click enter.
 Then retype what you frst wrote in the command prompt; this should prompt you to enter your password. 
 
 
-Once ou have entered your password, you should see a screen like this.
+Once you have entered your password, you should see a screen like this.
 
 
 <img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-04-10%20213256.png" width="900"/>
