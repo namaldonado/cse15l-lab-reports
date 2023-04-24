@@ -70,7 +70,6 @@ Here is an example of how to type them if you are stuck:
 
 <img src="https://github.com/namaldonado/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20214124.png" width="900"/>
 
-
-**To log out of the remote server in your terminal, you can use: **
+__To log out of the remote server in your terminal, you can use: __
 * Ctrl-D
-* Run the command `exit
+* Run the command `exit`
