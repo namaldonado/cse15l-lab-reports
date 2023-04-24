@@ -21,12 +21,10 @@ Once you finish installing VScode, open the application. You should see a screen
 ## Remotely Connecting
 
 
-Open a new terminal on VS Code by using the built-in terminal/command prompt or by simply uing ` ctrl + shift + `` 
+Open a new terminal on VS Code by using the built-in terminal/command prompt or by simply uing ctrl + shift + ` 
 
 
 Then type the follwing int your command prompt:
-
-
 
 ```
 ssh <username + @ieng6-202.ucsd.edu>
