@@ -26,7 +26,14 @@ Open a new terminal on VS Code by using the built-in terminal/command prompt or 
 
 Then type the follwing int your command prompt:
 
-`ssh <username + @ieng6-202.ucsd.edu>`
+
+
+```
+# code block
+ssh <username + @ieng6-202.ucsd.edu>
+print '3 backticks or'
+print 'indent 4 spaces'
+```
 
   
 Be sure to replace <username> with **your** username.
