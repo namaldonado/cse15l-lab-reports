@@ -29,10 +29,7 @@ Then type the follwing int your command prompt:
 
 
 ```
-# code block
 ssh <username + @ieng6-202.ucsd.edu>
-print '3 backticks or'
-print 'indent 4 spaces'
 ```
 
   
