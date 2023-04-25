@@ -66,7 +66,7 @@ Let's try out some commands, here are a few examples we can try:
 Here is an example of how to type them if you are stuck:
 
 
-<img src="https://github.com/namaldonado/cse15l-lab-reports/blob/main/Screenshot%202023-04-10%20214124.png"/>
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-04-24%20165709.png"/>
 
   **To log out of the remote server in your terminal, you can use:**
 * Ctrl-D
