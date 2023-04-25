@@ -63,8 +63,7 @@ Let's try out some commands, here are a few examples we can try:
 - cat <directory\>
 ```
   
-Here is an example of how to type them if you are stuck:
-
+Here is just a few examples of how to call them:
 
 <img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-04-24%20165709.png"/>
 
