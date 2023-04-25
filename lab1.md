@@ -31,7 +31,9 @@ ssh <username + @ieng6-202.ucsd.edu>
 ```
 
   
-Be sure to replace <username> with ***your*** username.
+Be sure to replace <username> with 
+  ***your*** 
+  username.
 
 once you have types that, press enter.
 
