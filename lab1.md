@@ -29,13 +29,10 @@ Then type the follwing int your command prompt:
 ```
 ssh <username + @ieng6-202.ucsd.edu>
 ```
-
   
-Be sure to replace <username> with 
-  ***your*** 
-  username.
+Be sure to replace <username> with ***your*** username.
 
-once you have types that, press enter.
+Once you have types that, press enter.
 
 You should see something like the following:
 
