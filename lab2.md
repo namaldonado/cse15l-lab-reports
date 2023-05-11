@@ -56,7 +56,17 @@ class StringServer {
 
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-10%20221708.png"  width="800"/>
 
+`/add-message?s=Hello`
+For the first request, the relevant argument is the **URI**. The path field of the **StringHandler** instance is the file path passed as an arugment when the **StringHandler** instance was created. The **lines** field of the **StringHandler** is a list of stirngs representing the lines of the file specifiec by the file path. The **handleRequest** method chesks if the path of the URL is `/add` and if the query string starts with **"s="**. The only reason why the certain **list** would not get changed if the iput failed to contain either the path or correct query string.
+
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-10%20220906.png"  width="800"/>
+`/add-message?s=HelloWorld`
+For the second request, the relevant argument stays the same. The **path** and **lines** fields of the **StringHolder** instance are the same as before. The **handleRequest** method checks if the path and query string satisfy the conditions as mentioned aobve. In this case, since both conditions are satisfied, the method extracts the string to add from the query string and *appends* it to the list of lines. Afterwards we have the result:
+```
+Hello
+HelloWorld
+```
+
 
 # Part 2
 Choose one of the bugs from lab 3.
