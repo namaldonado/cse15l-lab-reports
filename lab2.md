@@ -1,4 +1,6 @@
 # Part 1
+
+### Here is the code for StringServer
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -50,6 +52,11 @@ class StringServer {
 }
 
 ```
+### And below are two screenshots of using /add-message:
+
+<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-10%20221708.png"  width="800"/>
+
+<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-10%20220906.png"  width="800"/>
 
 # Part 2
 Choose one of the bugs from lab 3.
