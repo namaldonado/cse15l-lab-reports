@@ -62,6 +62,8 @@ For the first request, the relevant argument is the **URI**. The path field of t
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-10%20220906.png"  width="800"/>
 `/add-message?s=HelloWorld`
 For the second request, the relevant argument stays the same. The **path** and **lines** fields of the **StringHolder** instance are the same as before. The **handleRequest** method checks if the path and query string satisfy the conditions as mentioned aobve. In this case, since both conditions are satisfied, the method extracts the string to add from the query string and *appends* it to the list of lines. Afterwards we have the result:
+
+
 ```
 Hello
 HelloWorld
