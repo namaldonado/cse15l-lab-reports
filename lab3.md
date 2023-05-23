@@ -12,4 +12,12 @@ ssh cs15lsp23oe@ieng6.ucsd.edu
 ```
 
 ## Clone your fork of the repository from your Github account 
-<img src=""/>
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20185902.png"/>
+
+I had already copied the URL beforehand.
+Keys Pressed: `<g> <i> <t> <space> <c> <l> <o> <n> <e> <space> <ctrl> <v> <enter>`
+...
+
+```
+git clone https://github.com/namaldonado/lab7
+```
