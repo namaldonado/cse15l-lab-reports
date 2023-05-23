@@ -8,4 +8,5 @@ First I typed in:
 
 ```
 ssh cs15lsp23oe@ieng6.ucsd.edu
+******************
 ```
