@@ -41,8 +41,19 @@ ls
 sh test.sh
 ```
 
+## Edit the code file `ListExamples.java` to fix the failing test (as a reminder, the error in the code is just that `index1` is used instead of `index2` in the final loop in merge)
 
 <img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20192615.png"/>
+
+Keys Pressed:
+
+```
+<j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j>
+<l><l><l><l><l><l><l><l><l><l><l> 
+<x><i><2> <esc><:><w><q><enter>
+```
+
+
 
 
 
