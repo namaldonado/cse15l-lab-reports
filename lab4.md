@@ -81,5 +81,7 @@ This exits us out of the editor for the message and adds the changes to the file
 To push the file, I press the following keys:
 Keys Pressed: <g><i><t><space><p><u><s><h>
   
+This would push the file, and the message shown in the photo above is the output. 
+  
  
   
