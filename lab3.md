@@ -24,4 +24,32 @@ git clone https://github.com/namaldonado/lab7
 ```
 
 ## Run the tests, demonstrating that they fail
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20191920.png"/>
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20191945.png"/>
 
+Keys Pressed: `<l><s><enter> <c><d><space><l><a><b><7><enter> <l><s><enter> <s><h><space><t><e><s><t><.><s><h>`
+> I wanted to see what files were under my current working directory so I input `ls`.
+> I then changed the working directory to lab7 using the `cd` command.
+> Afterwards I checked the files under the lab7 directory.
+
+I input sh test.sh to execute the ListExamples.java file, and it gave an output such as the one shown in the photo above. 
+
+```
+ls
+cd lab7
+ls
+sh test.sh
+```
+
+
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20192615.png"/>
+
+
+
+
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20192957.png"/>
+
+
+
+
+<img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20193108.png"/>
