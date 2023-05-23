@@ -3,8 +3,7 @@
 ## Log into ieng6
 <img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20185749.png"/>
 
-First I typed in:
-
+Keys Pressed: `<s><s><p><space><c><s><1><5><l><s><p><2><3><o><e><shift><2><i><e><n><g><6><.><u><c><s><d>.<e><d><u>`
 
 ```
 ssh cs15lsp23oe@ieng6.ucsd.edu
