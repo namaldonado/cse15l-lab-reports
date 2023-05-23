@@ -45,7 +45,10 @@ sh test.sh
 
 <img src="https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-05-22%20192615.png"/>
 
-Keys Pressed:
+Keys Pressed: `<v><i><m> <shift><l><i><s><t><shift><e><x><a><m><p><l><e><s><.><j><a><v><a> <enter>`
+```
+vim ListExamples.java
+```
 
 ```
 <j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j><j>
@@ -53,6 +56,7 @@ Keys Pressed:
 <x><i><2> <esc><:><w><q><enter>
 ```
 
+I decided to continue practicing with the `h`, `j`, `k`, `l` keys. I started off at the first letter of the first line so I had to go down 44 keys and 11 to the right. I then deleted replaced the number 1 with the number 2 and saved then exited out of vim. 
 
 
 
