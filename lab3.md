@@ -21,3 +21,6 @@ Keys Pressed: `<g> <i> <t> <space> <c> <l> <o> <n> <e> <space> <ctrl> <v> <enter
 ```
 git clone https://github.com/namaldonado/lab7
 ```
+
+## Run the tests, demonstrating that they fail
+
