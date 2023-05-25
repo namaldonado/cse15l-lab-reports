@@ -4,11 +4,11 @@
 > The `-type` option allows you to search for files based on their type of file. It can be used to speficy the type of file to be searches, such as directories `d` or regular files `f`. Below we see the output of two examples. 
 
 
-### **Here is the first example of using `-type`:**
+**Here is the first example of using `-type`:**
 ```
 find ./technical -type d
 ```
-### **Here is the Output:**
+**Here is the Output:**
 ```
 ./technical
 ./technical/911report
@@ -25,11 +25,11 @@ find ./technical -type d
 Here we use the command-line to find all directories in the `./technical` directory! 
 
 
-### **Here is the second example of using `-type`:**
+**Here is the second example of using `-type`:**
 ```
 find ./technical -type f -name 1471-2091-2-13.txt
 ```
-### **Here is the Output:**
+**Here is the Output:**
 ```
 ./technical/biomed/1471-2091-2-13.txt 
 ```
@@ -40,22 +40,22 @@ Here we use the command line to find one regular file in the `./technical` direc
 *Description:*
 > The `-iname` option is used to perform "case-insensitive search" based on patterns. It allows us to find files and directories by their names. I think it's important to keep in mind, that it disregards the case of the letters. 
 
-### **Here is the first example of using `-iname`:**
+**Here is the first example of using `-iname`:**
 ```
 find ./technical -iname "*government*"
 ```
-### **Here is the Output:**
+**Here is the Output:**
 ```
 ./technical/government
 ``` 
 Here we find all directories in the `./technical` directory with names containing the phrase "government". This is a case-insensitive example. 
 
 
-### **Here is the second example of using `-iname`:**
+**Here is the second example of using `-iname`:**
 ```
 find ./technical -iname "*00.txt"
 ```
-### **Here is the Output:**
+**Here is the Output:**
 ```
 ./technical/biomed/cc300.txt
 ./technical/government/Post_Rate_Comm/Gleiman_gca2000.txt      
@@ -71,11 +71,11 @@ Here we find all the files in the `./technical` directory with names ending in "
 *Description:*
 > The `-size` option allows us to search for files based on their size. We can specify the size of the files using different units ranging from bytes to megabytes and more. 
 
-### **Here is the first example of using `-size`:**
+**Here is the first example of using `-size`:**
 ```
 find ./technical -size -2k
 ```
-### **Here is the Output:**
+**Here is the Output:**
 ```
 ./technical/plos/pmed.0020191.txt
 ./technical/plos/pmed.0020226.txt
@@ -83,11 +83,11 @@ find ./technical -size -2k
 Here we find all files in the `./technical` directly less than 1k.  
 
 
-### **Here is the second example of using `-size`:**
+**Here is the second example of using `-size`:**
 ```
 find ./technical -size +230k
 ```
-### **Here is the Output:**
+**Here is the Output:**
 ```
 ./technical/911report/chapter-13.4.txt
 ./technical/911report/chapter-13.5.txt
