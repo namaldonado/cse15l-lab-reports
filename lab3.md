@@ -1,4 +1,8 @@
-# Researching Commands
+# Researching Commands                                          
+
+> ***Before we begin there are a few things to note:
+> I logged into cs15lsp23 account, changed the full path directory to stringsearch-data
+> so all the examples below are from text files within this repository! *** 
 
 ## Command-line option 1 `-type` 
 *Description:*
@@ -122,6 +126,8 @@ find ./technical -size +230k
 ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
 ./technical/government/Gen_Account_Office/d01591sp.txt
 ``` 
+
+
 Here we find all the files in the `./technical` directory more than 230k. Again same logic as above, with `+` representing more than and `k` representing kilobytes. There are other representations of sizes, for example megebytes can be represented with the letter `M`. 
 
 
@@ -134,16 +140,27 @@ Here we find all the files in the `./technical` directory more than 230k. Again 
 
 
 **Here is the first example of using `-exec`:**
-`
+
+```
 find ./technical -type d -exec readlink -f {} \;
 ```
 
 Here we are findinf all directories in the `technical` directory and printing their absolute paths! 
 
-For instance: The path `/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government` represents the absolute file system path to the "government" directory located within the "technical" directory, further located in the "stringsearch-data" directory. The full path indicates that the "stringsearch-data" directory is located in the user's home directory. We can see this in the output below (line 4):
+For instance: The path `/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government` 
+- represents the absolute file system path to the "government" directory located within the
+"technical" directory
+- further located in the "stringsearch-data" directory. 
+- The full path indicates that the "stringsearch-data" directory is located in the user's home
+directory. 
+
+We can see this in the output below (line 4):
 
 
 **Here is the Output:**
+
+
+
 ```
 /home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical
 /home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/911report
@@ -156,6 +173,7 @@ For instance: The path `/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-dat
 /home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government/Media
 /home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government/Post_Rate_Comm
 /home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/plos
+
 ``` 
 
 
@@ -166,11 +184,20 @@ For instance: The path `/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-dat
 find ./technical -type f -exec rm {} \;
 ```
 
+I decided to do this command last because it deletes all the regular files in the `./technical` directory. Hence there being no visible output. 
+
 
 **Here is the Output:**
 
 
 ```
-_
 ``` 
 
+## Here are some sources I used to write this Lab Report: 
+1. [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
+
+2. [Chat GPT - coming up with examples](https://openai.com/blog/chatgpt)
+
+3. [Find Command in Linux - Formatting explanations](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+
+4. [GeeksforGeeks - '-name' and '-size'](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
