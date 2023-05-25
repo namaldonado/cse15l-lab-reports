@@ -48,10 +48,10 @@ Here we use the command line to find one regular file in the `./technical` direc
 --------
 ## Command-line option 2: `-iname`
 *Description:*
-> The `-iname` option is used to perform "case-insensitive search" based on patterns. It allows us to find files and directories by their names. I think it's important to keep in mind, that it disregards the case of the letters. 
+> The `-iname` option is used to perform "case-insensitive" searches based on patterns. It allows us to find files and directories by their names. I think it's important to keep in mind, that it disregards the case of the letters. 
 
 
-**Here is the first example of using `-iname`:**
+**1st Example:**
 ```
 find ./technical -iname "*government*"
 ```
@@ -64,7 +64,7 @@ find ./technical -iname "*government*"
 Here we find all directories in the `./technical` directory with names containing the phrase "government". This is a case-insensitive example. 
 
 
-**Here is the second example of using `-iname`:**
+**2nd Example**
 ```
 find ./technical -iname "*00.txt"
 ```
@@ -78,7 +78,7 @@ find ./technical -iname "*00.txt"
 ./technical/plos/journal.pbio.0020400.txt
 ./technical/plos/pmed.0020200.txt
 ``` 
-Here we find all the files in the `./technical` directory with names ending in "00.txt". This is also a case-insensitive example. 
+This is also a case-insensitive example. We could just leave the command as `find ./technical -name "*.txt" and that would list all files that end with .txt` however that wouldn't fit on the page so we'll use a smaller example. Here we find all the files in the `./technical` directory with names ending in "00.txt". 
 
 
 
@@ -90,7 +90,7 @@ Here we find all the files in the `./technical` directory with names ending in "
 > The `-size` option allows us to search for files based on their size. We can specify the size of the files using different units ranging from bytes to megabytes and more. 
 
 
-**Here is the first example of using `-size`:**
+**1st Example**
 ```
 find ./technical -size -2k
 ```
@@ -102,10 +102,10 @@ find ./technical -size -2k
 ./technical/plos/pmed.0020226.txt
 ``` 
 
-Here we find all files in the `./technical` directly less than 1k. 
+Here we find all files in the `./technical` directly less than 2 kilobytes. To signify that we want to find something less than 2 kilobytes we use the `-` sign and the letter `k` to signify kilobytes.  
 
 
-**Here is the second example of using `-size`:**
+**2nd Example**
 ```
 find ./technical -size +230k
 ```
@@ -121,7 +121,7 @@ find ./technical -size +230k
 ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
 ./technical/government/Gen_Account_Office/d01591sp.txt
 ``` 
-Here we find all the files in the `./technical` directory more than 230k
+Here we find all the files in the `./technical` directory more than 230k. Again same logic as above, with `+` representing more than and `k` representing kilobytes. There are other representations of sizes, for example megebytes can be represented with the letter `M`. 
 
 
 
@@ -155,13 +155,17 @@ find ./technical -type d -exec readlink -f {} \;
 
 
 **Here is the second example of using `-exec`:**
+
+
 ```
 find ./technical -type f -exec rm {} \;
 ```
 
 
 **Here is the Output:**
-```
 
+
+```
+_
 ``` 
-     > Hello there
+
