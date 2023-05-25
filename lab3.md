@@ -2,7 +2,7 @@
 
 > ***Before we begin there are a few things to note:
 > I logged into cs15lsp23 account, changed the full path directory to stringsearch-data
-> so all the examples below are from text files within this repository! *** 
+> so all the examples below are from text files within this repository!*** 
 
 ## Command-line option 1 `-type` 
 *Description:*
