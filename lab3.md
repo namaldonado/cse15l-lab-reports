@@ -1,4 +1,5 @@
 # Researching Commands
+
 ## Command-line option 1 `-type` 
 *Description:*
 > The `-type` option allows you to search for files based on their type of file. It can be used to speficy the type of file to be searches, such as directories `d` or regular files `f`. Below we see the output of two examples. 
@@ -8,6 +9,8 @@
 ```
 find ./technical -type d
 ```
+
+
 **Here is the Output:**
 ```
 ./technical
@@ -26,9 +29,13 @@ Here we use the command-line to find all directories in the `./technical` direct
 
 
 **Here is the second example of using `-type`:**
+
+
 ```
 find ./technical -type f -name 1471-2091-2-13.txt
 ```
+
+
 **Here is the Output:**
 ```
 ./technical/biomed/1471-2091-2-13.txt 
@@ -36,14 +43,20 @@ find ./technical -type f -name 1471-2091-2-13.txt
 Here we use the command line to find one regular file in the `./technical` directory! We could just write `find ./technical -type f`; this would list all the regular files, however for space purposes we'll just show one using the `-name` command. 
 
 
+
+
+--------
 ## Command-line option 2: `-iname`
 *Description:*
 > The `-iname` option is used to perform "case-insensitive search" based on patterns. It allows us to find files and directories by their names. I think it's important to keep in mind, that it disregards the case of the letters. 
+
 
 **Here is the first example of using `-iname`:**
 ```
 find ./technical -iname "*government*"
 ```
+
+
 **Here is the Output:**
 ```
 ./technical/government
@@ -55,6 +68,8 @@ Here we find all directories in the `./technical` directory with names containin
 ```
 find ./technical -iname "*00.txt"
 ```
+
+
 **Here is the Output:**
 ```
 ./technical/biomed/cc300.txt
@@ -67,26 +82,35 @@ Here we find all the files in the `./technical` directory with names ending in "
 
 
 
+
+
+---------
 ## Command-line option 3: `-size`
 *Description:*
 > The `-size` option allows us to search for files based on their size. We can specify the size of the files using different units ranging from bytes to megabytes and more. 
+
 
 **Here is the first example of using `-size`:**
 ```
 find ./technical -size -2k
 ```
+
+
 **Here is the Output:**
 ```
 ./technical/plos/pmed.0020191.txt
 ./technical/plos/pmed.0020226.txt
 ``` 
-Here we find all files in the `./technical` directly less than 1k.  
+
+Here we find all files in the `./technical` directly less than 1k. 
 
 
 **Here is the second example of using `-size`:**
 ```
 find ./technical -size +230k
 ```
+
+
 **Here is the Output:**
 ```
 ./technical/911report/chapter-13.4.txt
@@ -101,3 +125,43 @@ Here we find all the files in the `./technical` directory more than 230k
 
 
 
+
+---------
+## Command-line option 4: `-exec`
+*Description:*
+> The `-exec` option allows us to execute a command on the files or directories found by `find`. We can do certain tasks such as copying/moving files or deleting files.  
+
+
+**Here is the first example of using `-exec`:**
+`
+find ./technical -type d -exec readlink -f {} \;
+```
+
+
+**Here is the Output:**
+```
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/911report
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/biomed
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government/About_LSC
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government/Alcohol_Problems
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government/Env_Prot_Agen
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government/Gen_Account_Office
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government/Media
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government/Post_Rate_Comm
+/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/plos
+``` 
+
+
+**Here is the second example of using `-exec`:**
+```
+find ./technical -type f -exec rm {} \;
+```
+
+
+**Here is the Output:**
+```
+
+``` 
+     > Hello there
