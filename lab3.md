@@ -1,9 +1,9 @@
 # Researching Commands
 ## Command-line option 1 `-type` 
 
-**Here is the command line:**
+**Here is the first example of this command line:**
 ```
-find ./technical -type d
+find ./technical -type ** d **
 ```
 
 
@@ -21,3 +21,13 @@ find ./technical -type d
 ./technical/plos
 ```
 
+**Here is the second example of this command line:**
+```
+find ./technical -type ** f ** 
+```
+
+
+**Here is the Output:**
+```
+
+```
