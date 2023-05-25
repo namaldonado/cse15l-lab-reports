@@ -3,7 +3,7 @@
 
 **Here is the first example of this command line:**
 ```
-find ./technical -type ** d **
+find ./technical -type  **d**
 ```
 
 
@@ -23,7 +23,7 @@ find ./technical -type ** d **
 
 **Here is the second example of this command line:**
 ```
-find ./technical -type ** f ** 
+find ./technical -type  **f** 
 ```
 
 
