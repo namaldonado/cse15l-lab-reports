@@ -85,7 +85,7 @@ find ./technical -iname "*00.txt"
 This is also a case-insensitive example. We could just leave the command as `find ./technical -name "*.txt" and that would list all files that end with .txt` however that wouldn't fit on the page so we'll use a smaller example. Here we find all the files in the `./technical` directory with names ending in "00.txt". 
 
 
-We can also find files that are .png type files or even .pdf, however because our directory only contains txt files, we can only show a `.txt` example.         :slightly_smiling_face:
+We can also find files that are .png type files or even .pdf, however because our directory only contains txt files, we can only show a `.txt` example.  
 
 
 
