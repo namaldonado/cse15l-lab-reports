@@ -81,6 +81,7 @@ find ./technical -iname "*00.txt"
 This is also a case-insensitive example. We could just leave the command as `find ./technical -name "*.txt" and that would list all files that end with .txt` however that wouldn't fit on the page so we'll use a smaller example. Here we find all the files in the `./technical` directory with names ending in "00.txt". 
 
 
+We can also find files that are .png type files or even .pdf, however because our directory only contains txt files, we can only show a `.txt` example. :slightly_smiling_face:
 
 
 
@@ -136,6 +137,10 @@ Here we find all the files in the `./technical` directory more than 230k. Again 
 `
 find ./technical -type d -exec readlink -f {} \;
 ```
+
+Here we are findinf all directories in the `technical` directory and printing their absolute paths! 
+
+For instance: The path `/home/linux/ieng6/cs15lsp23/cs15lsp23oe/stringsearch-data/technical/government` represents the absolute file system path to the "government" directory located within the "technical" directory, further located in the "stringsearch-data" directory. The full path indicates that the "stringsearch-data" directory is located in the user's home directory. We can see this in the output below (line 4):
 
 
 **Here is the Output:**
