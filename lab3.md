@@ -184,7 +184,6 @@ We can see this in the output below (line 4):
 find ./technical -type f -exec rm {} \;
 ```
 
-I decided to do this command last because it deletes all the regular files in the `./technical` directory. Hence there being no visible output. 
 
 
 **Here is the Output:**
@@ -192,6 +191,9 @@ I decided to do this command last because it deletes all the regular files in th
 
 ```
 ``` 
+
+I decided to do this command last because it deletes all the regular files in the `./technical` directory. Hence there being no visible output. 
+
 
 ## Here are some sources I used to write this Lab Report: 
 1. [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
