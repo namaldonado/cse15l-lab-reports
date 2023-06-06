@@ -59,7 +59,8 @@ javac Server.java StringServer.java
 java StringServer 4909 words.txt
 ```
 
-The code only needed a change in the file directory, so 
+Here was the change in code necessary for it to run:
+<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20211436.png"  width="600"/>
 
 
 
