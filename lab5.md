@@ -4,6 +4,7 @@
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20211436.png"  width="600"/>
 
 -----------------------
+### My Suggestions
  Hi! Here are a few suggestions I would consider:
  
  1. Consider compiling your files in the following manner:
@@ -43,6 +44,22 @@
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20213323.png"  width="600"/>
 
 
+
+### Necessary Information
+
+I cloned the repository *stringsearch* from github onto the terminal in Visual Studio Code.
+Server.java was actually the server I tried to do for a lab report from before. 
+It had failed so it was perfect for a scneario that needed fixing. 
+A few command lines that I ran are as follows: 
+```
+ls 
+cd string search
+ls
+javac Server.java StringServer.java
+java StringServer 4909 words.txt
+```
+
+The code only needed a change in the file directory, so 
 
 
 
