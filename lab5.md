@@ -1,13 +1,33 @@
 # Lab Report 5
 ## Part 1 - Debugging Scenario 
 
-<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20203128.png"  width="800"/>
+<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20211436.png"  width="600"/>
+
+-----------------------
+ Hi! Here are a few suggestions I would consider:
+ 
+ 1. Consider compiling your files in the following manner:
 
 
-A response from a TA asking a leading question 
-or suggesting a command to try (To be clear, you 
-are mimicking a TA here.)
+     `javac Server.java StringServer.java`
+     
+     
+     
+ 2. You are missing a file path
+     A file path can be as simple as a text file which in this case is words.txt
+     you were heading in the right direction, you just needed to consider the other
+     files in the stringsearch directory (you can do with with the ls command)
+   
+    ` java String Server #### words.txt`
 
+
+ 3.  There is an issue with the file path in your "/save" section of the code
+     your mistake lies in the 'else if(url.getPath().equals("/save"))' block. 
+     Instead of using the actual this.path variable that holds the valid file path, 
+     consider writing the file to a different path.
+     
+     
+     `Files.write(Paths.get(this.path), toSave.getBytes());`
 
 Another screenshot/terminal output showing 
 what information the student got from trying
