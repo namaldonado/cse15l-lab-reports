@@ -32,15 +32,23 @@
 
 
 ### Students Output:
+
+This image shows the student compiling the Server. We can see it is successful because it generated a link to a server. 
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20213156.png"  width="600"/>
 
 
+
+Here the student tests the code to see if adding a word in the text file `words.txt` works. Which we can see in the image below worked. 
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20213242.png"  width="600"/>
 
 
+
+Here the student tests the code again to see if they can save the word added. We see the message "saved!" so we can guarantee that our code worked, which is great because this was a snippet from the code we caught a slight bug. 
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20213253.png"  width="600"/>
 
 
+
+Here the student tests the search command and it works successfully as well, concluding the code and Server ran smoothly. 
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20213323.png"  width="600"/>
 
 
