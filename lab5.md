@@ -31,6 +31,7 @@
      `Files.write(Paths.get(this.path), toSave.getBytes());`
 
 
+-------------------------------
 ### Students Output:
 
 This image shows the student compiling the Server. We can see it is successful because it generated a link to a server. 
@@ -52,12 +53,18 @@ Here the student tests the search command and it works successfully as well, con
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20213323.png"  width="600"/>
 
 
-
+---------------------------------
 ### Necessary Information
 
 I cloned the repository *stringsearch* from github onto the terminal in Visual Studio Code.
 Server.java was actually the server I tried to do for a lab report from before. 
-It had failed so it was perfect for a scneario that needed fixing. 
+
+Here is the *before* code snippet of the code we changed:
+
+
+<img src = "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20222351.png"  width="600">
+
+
 A few command lines that I ran are as follows: 
 ```
 ls 
@@ -70,11 +77,11 @@ java StringServer 4909 words.txt
 Here was the change in code necessary for it to run:
 
 
-
 <img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20215241.png"  width="600"/>
 
 
+In order to compile a certain file, I think it would be really helpful to always keep the command `ls` in mind. 
 
-
-## Part 2 - Reflection
+---------------------------------------------
+## Part 2 - Reflection :smiley:
 There are a lot of things I learned during this course, but the most memorable topic I learned was handling text files. Such as counting and finding files. There was something really cool about knowing how a single file can hold multiple files, and how a single command line can find an exact number of files containing certain characters or finding a spceific file from a bunch of similarly structued files. A cool thing I learned during this course was how long you could stay in the CS building labs and findind all the cool lounges around top floors of the CS buildings. 
