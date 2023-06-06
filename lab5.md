@@ -1,11 +1,7 @@
 # Lab Report 5
 ## Part 1 - Debugging Scenario 
 
-IT SHOULD HAVE: 
-
-
-Post Comments:
-
+<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20203128.png"  width="800"/>
 
 
 A response from a TA asking a leading question 
