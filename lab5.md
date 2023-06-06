@@ -1,7 +1,7 @@
 # Lab Report 5
 ## Part 1 - Debugging Scenario 
 
-<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20211436.png"  width="600"/>
+<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20211436.png"  width="400"/>
 
 -----------------------
 ### My Suggestions
