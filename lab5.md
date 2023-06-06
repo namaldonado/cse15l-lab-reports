@@ -60,7 +60,7 @@ java StringServer 4909 words.txt
 ```
 
 Here was the change in code necessary for it to run:
-<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20211436.png"  width="600"/>
+<img src= "https://raw.githubusercontent.com/namaldonado/cse15l-lab-reports/main/Screenshot%202023-06-05%20215241.png"  width="600"/>
 
 
 
